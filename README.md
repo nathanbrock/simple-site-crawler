@@ -1,6 +1,5 @@
 # Simple Site Crawler
 
-The
 
 ## Pre-requisites
 
@@ -10,7 +9,7 @@ The
 ## Getting started
 
 There are at least three containers running at any given time. A [RabbitMQ](https://www.rabbitmq.com/) message broker,
-[MongoDB]](https://docs.mongodb.com/) data store and task worker. The crawler makes use of [Celery](http://www.celeryproject.org/),
+[MongoDB](https://docs.mongodb.com/) data store and task worker. The crawler makes use of [Celery](http://www.celeryproject.org/),
 the distributed task queue library, it's use of which is more apparent when you scale multiple workers.
 
 To get started, run the following command

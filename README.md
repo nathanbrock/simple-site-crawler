@@ -18,6 +18,12 @@ To get started, run the following command
 make start_containers
 ```
 
+Before starting the crawl you may wish to increase the number of worker containers, which by default is one.
+
+```bash
+docker scale worker=[NUMBER_OF_WORKERS]
+```
+
 Once things are up and running you can start a crawl of all the urls found in the crawlable_urls.txt file.
 
 ```bash

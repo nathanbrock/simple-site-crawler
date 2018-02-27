@@ -30,7 +30,7 @@ Once things are up and running you can start a crawl of all the urls found in th
 make start_crawl
 ```
 
-The results of the crawl are saved into Mongo.
+The results of the crawl are saved into Mongo. You can connect to MongoDB from your host using the address `localhost:27018`.
 
 ## Thanks
 

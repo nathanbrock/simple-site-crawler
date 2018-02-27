@@ -11,9 +11,9 @@ services:
           crawler_network:
             ipv4_address: 172.25.0.50
         ports:
-            - "5672:5673"
+            - "5672:5673" # Expose ports to host (HOST:CONTAINER)
         expose:
-            - "5673"
+            - "5673" # Expose ports without publishing them to the host machine
 
     database:
         hostname: mongo
@@ -22,9 +22,9 @@ services:
           crawler_network:
             ipv4_address: 172.25.0.70
         ports:
-            - "27017:27018"
+            - "27018:27017" # Expose ports to host (HOST:CONTAINER)
         expose:
-            - "27018"
+            - "27017" # Expose ports without publishing them to the host machine
 
     worker:
         build:

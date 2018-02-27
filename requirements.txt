@@ -1,3 +1,4 @@
 celery==4.0.2
 requests
 pymongo==3.4.0
+reppy==0.4.9
